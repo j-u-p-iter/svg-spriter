@@ -1,0 +1,44 @@
+{
+  "name": "@j.u.p.iter/svg-spriter",
+  "version": "0.0.0-semantically-released",
+  "description": "CLI to generate svg sprites on the fly",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "main": "dist/lib/index.js",
+  "scripts": {
+    "commit": "jupiter-scripts precommit --allowJs",
+    "build": "jupiter-scripts build --module CommonJS",
+    "start": "yarn run build --watch",
+    "lint": "jupiter-scripts lint --format codeFrame",
+    "lint:fix": "yarn run lint --fix",
+    "test": "jupiter-scripts test"
+  },
+  "repository": "git@github.com:j-u-p-iter/svg-spriter.git",
+  "files": [
+    "dist"
+  ],
+  "author": "Leontyev Kirill <pn79122821224@gmail.com> (j.u.p.iter)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j-u-p-iter/svg-spriter/issues"
+  },
+  "homepage": "https://github.com/j-u-p-iter/svg-spriter#readme",
+  "devDependencies": {
+    "@j.u.p.iter/jupiter-scripts": "^1.10.0",
+    "@types/es6-promisify": "^6.0.0",
+    "@types/mkdirp": "^0.5.2",
+    "@types/ramda": "^0.25.48",
+    "@types/rimraf": "^2.0.2",
+    "@types/svg-sprite": "^0.0.32",
+    "material-design-icons": "^3.0.1",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "es6-promisify": "^6.0.1",
+    "mkdirp": "^0.5.1",
+    "ramda": "^0.26.1",
+    "svg-sprite": "^1.5.0"
+  }
+}
