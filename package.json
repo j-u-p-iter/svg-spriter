@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/j-u-p-iter/svg-spriter#readme",
   "devDependencies": {
-    "@j.u.p.iter/jupiter-scripts": "^1.10.0",
+    "@j.u.p.iter/jupiter-scripts": "^1.11.0",
     "@types/es6-promisify": "^6.0.0",
     "@types/mkdirp": "^0.5.2",
     "@types/ramda": "^0.25.48",
