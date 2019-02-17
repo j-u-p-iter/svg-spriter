@@ -1,1 +1,5 @@
-export { generateSprite, SpriteConfig } from "./generateSprite";
+export {
+  normalizeSprites,
+  generateSprite,
+  SpriteConfig
+} from "./generateSprite";

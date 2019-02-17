@@ -22,7 +22,7 @@ const createSpriter = (config: Config): ISVGSpriter =>
     }
   });
 
-const normalizeSprites = (data: SpriteConfig): string[] =>
+export const normalizeSprites = (data: SpriteConfig): string[] =>
   Object.keys(data).reduce(
     (resultArray, spriteCategory) => {
       const categoryPaths = Object.keys(data[spriteCategory]).map(
